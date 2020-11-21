@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+public
+
+# Jest test reports
+.jest
+
+#IntelliJ files
+.idea/*
