@@ -38,10 +38,9 @@
 
           <filter-box :data="globalFilters"/>
 
-          <column-links/>
-
         </aside-column>
-  </div>  </div>
+    </div>
+  </div>
 </div>
   <div class="pidila-footer">
     <div class="container">
@@ -75,7 +74,6 @@
   import Alert from '~/components/Alert/index'
   import ListTools from '~/components/ListTools/index'
   import AsideColumn from '~/components/AsideColumn/index'
-  import ColumnLinks from '~/components/ColumnLinks/index'
   import SearchBox from '~/components/SearchBox/index'
   import Events from '~/bus/events'
   import AnchorLink from '~/components/AnchorLink/index'
@@ -83,7 +81,6 @@
   export default {
     components: {
       SearchBox,
-      ColumnLinks,
       AsideColumn,
       ListTools,
       Alert,
@@ -168,6 +165,12 @@ button { border-radius: unset;}
 .crit-item-title {
     color: inherit;
 }    
-  
+
+  .footer-content a {
+  }
+  .pidila-logo a {
+    border: 0;
+  }  
+
 
 </style>

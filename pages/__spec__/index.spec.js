@@ -7,7 +7,6 @@ import FilterDetails from '../../components/FilterDetails'
 import Alert from '../../components/Alert'
 import ListTools from '../../components/ListTools'
 import AsideColumn from '../../components/AsideColumn'
-import ColumnLinks from '../../components/ColumnLinks'
 import SearchBox from '../../components/SearchBox'
 import index from '../index.vue'
 
