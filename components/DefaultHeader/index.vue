@@ -5,7 +5,3 @@
     name: 'DefaultHeader'
   }
 </script>
-
-<style lang="css" scoped>
-  @import "../../data/layout/layout-override.css";
-</style>
