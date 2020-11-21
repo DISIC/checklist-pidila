@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "IE >= 10"
+          ]
+        },
+        "include": [
+          "es6.array.find"
+        ],
+        "useBuiltIns": true
+      }
+    ],
+    "vue"
+  ]
+}

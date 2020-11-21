@@ -1,0 +1,19 @@
+a {
+  color: #666;
+  }
+
+a:hover,
+a:active,
+a:focus {
+  background: $gray-9;
+  color: $secondary-color;
+  }
+
+a img {
+  text-decoration: none;
+  background: $gray-10;
+  }
+
+.filter-link {
+  position: absolute;
+}

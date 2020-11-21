@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | FilterBox should match snapshot 1`] = `
+<div
+  class="filter-boxes"
+>
+  <h2>
+    <svg
+      aria-hidden="true"
+      class="svg-icon icon-filter"
+      focusable="false"
+    >
+      <use
+        xlink:href="svg/icon-sprite.svg#filter"
+      />
+    </svg>
+    
+    Filtrer la liste
+  
+  </h2>
+   
+  <form
+    class="filters nav-box-content"
+    id="filters"
+  >
+    <p
+      class="filter-boxes-info"
+    >
+      La sélection de filtres met à jour la liste des critères sans rechargement de page.
+    </p>
+     
+    <filter-category-stub
+      data="[object Object]"
+    />
+  </form>
+</div>
+`;

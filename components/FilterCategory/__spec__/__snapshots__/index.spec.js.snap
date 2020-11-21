@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | FilterCategory should match snapshot 1`] = `
+<fieldset
+  class="filter-type fieldset-discrete"
+>
+  <legend>
+    Filtrer par référentiel
+  </legend>
+   
+  <p
+    class="filter-all"
+  >
+    <input
+      class="filter_input checkbox"
+      id="Référentiel_all"
+      type="checkbox"
+      value="Tous"
+    />
+     
+    <label
+      for="Référentiel_all"
+    >
+      Tous
+    </label>
+  </p>
+   
+  <ul
+    class="list-unstyled"
+  >
+    <li
+      class="filter"
+    >
+      <input
+        class="filter_input checkbox"
+        id="Référentiel_RGAA"
+        type="checkbox"
+        value="RGAA"
+      />
+       
+      <label
+        for="Référentiel_RGAA"
+      >
+        RGAA
+      </label>
+    </li>
+    <li
+      class="filter"
+    >
+      <input
+        class="filter_input checkbox"
+        id="Référentiel_Bonnes_pratiques_Opquast"
+        type="checkbox"
+        value="Bonnes pratiques Opquast"
+      />
+       
+      <label
+        for="Référentiel_Bonnes_pratiques_Opquast"
+      >
+        Bonnes pratiques Opquast
+      </label>
+    </li>
+    <li
+      class="filter"
+    >
+      <input
+        class="filter_input checkbox"
+        id="Référentiel_Troisième_Input"
+        type="checkbox"
+        value="Troisième Input"
+      />
+       
+      <label
+        for="Référentiel_Troisième_Input"
+      >
+        Troisième Input
+      </label>
+    </li>
+  </ul>
+   
+  <p
+    class="filter-link"
+  >
+    <anchor-link-stub
+      anchor="criteria-list"
+      cssclass="sr-only sr-only-focusable"
+      message="Accéder à la liste des critères"
+    />
+  </p>
+</fieldset>
+`;

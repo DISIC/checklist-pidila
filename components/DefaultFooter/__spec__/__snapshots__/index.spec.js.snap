@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | DefaultFooter should match snapshot 1`] = `
+<footer
+  class="footer"
+  role="contentinfo"
+>
+  <div
+    class="pidila-footer"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="footer-content"
+      >
+        <p>
+          La Checklist Pidila est élaborée et maintenue par le
+          <a
+            href="https://pidila.gitlab.io/"
+            title="Pôle intégration de la DILA"
+          >
+            PiDILA
+          </a>
+           avec la collaboration de la
+          <abbr
+            title="Direction interministérielle du numérique"
+          >
+            DINUM
+          </abbr>
+           et du
+          <abbr
+            title="Service d'information du gouvernement"
+          >
+            SIG
+          </abbr>
+          . Elle est mise à jour deux fois par an. Contact : pidila@dila.gouv.fr
+        </p>
+
+        <p>
+          Le
+          <a
+            href="https://gitlab.com/pidila/checklist-pidila"
+          >
+            code source
+          </a>
+           de l'application servant à afficher cette page est distribué sous double licence
+          <a
+            href="https://gitlab.com/pidila/scampi-twig/blob/master/LICENCE-MIT.md"
+          >
+            MIT
+          </a>
+           et
+          <a
+            href="http://www.cecill.info/licences/Licence_CeCILL-B_V1-fr.html"
+          >
+            CeCILL-B
+          </a>
+          . Les contenus sont sous licences respectives de chacun des
+          <a
+            href="https://pidila.gitlab.io/checklist-pidila/referentiels.html"
+          >
+            référentiels
+          </a>
+           alimentant la Checklist Pidila.
+        </p>
+      </div>
+
+      <div
+        class="pidila-logo"
+      >
+        <a
+          href="https://pidila.gitlab/io"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-logo"
+            focusable="false"
+          >
+            <use
+              xlink:href="svg/illus-sprite.svg#pidila"
+            />
+          </svg>
+
+          <span
+            class="sr-only"
+          >
+            Site du Pidila
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

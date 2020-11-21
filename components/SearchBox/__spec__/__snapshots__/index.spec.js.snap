@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | SearchBox should match snapshot 1`] = `
+<div
+  class="filter-boxes"
+>
+  <h2>
+    Rechercher dans les critères
+  </h2>
+   
+  <form>
+    <div
+      class="input-group search-group"
+    >
+      <input
+        class="form-control"
+        placeholder="ex. : accueil"
+        title="Rechercher dans l'ensemble des critères (exemple: accueil)"
+        type="search"
+      />
+       
+      <button
+        class="btn btn-search"
+        type="submit"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-icon icon-search"
+          focusable="false"
+        >
+          <use
+            xlink:href="svg/icon-sprite.svg#search"
+          />
+        </svg>
+         
+        <span
+          class="sr-only"
+        >
+          Valider la recherche
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

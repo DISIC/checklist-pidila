@@ -1,0 +1,171 @@
+/**
+* CSS d'impression
+*/
+@media print {
+  h1,
+  footer,
+  .baseline,
+  .nav-main-list,
+  .list-tools,
+  .expand-symbol,
+  .col-aside,
+  .filters-access,
+  .filters-reset {
+    display: none !important;
+  }
+
+  body,
+  .header,
+  .main {
+    width: 100%;
+    float: none;
+    background-color: #fff;
+  }
+
+  body {
+    font: 10pt Arial, sans-serif !important;
+    line-height: 1.25;
+    color: #000;
+  }
+
+  .banner .container {
+    padding-left: 0;
+    background: transparent;
+    color: #000;
+    border-bottom: 4px solid $gray-5;
+
+  }
+
+  .site-title {
+    color: #000 !important;
+    margin-top:20pt;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .main-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .filters-recap::before {
+    content: "Sélection\00A0:\00A0"
+  }
+
+  h1 {
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
+  h2, h3, h4 {
+    font-size: 14pt;
+    margin-top: 21pt;
+    margin-bottom: 14pt;
+  }
+
+  a,
+  blockquote,
+  table, pre,
+  input {
+      page-break-inside: avoid;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  img {
+    page-break-after:avoid;
+    page-break-inside:avoid
+  }
+
+  ul, ol, dl,
+  input  {
+    page-break-before:avoid;
+  }
+
+  label {
+    page-break-after:avoid;
+  }
+
+  a:link, a:visited, a {
+    background: transparent;
+    color: #333;
+    text-decoration: underline;
+  }
+
+  a {
+    page-break-inside:avoid;
+  }
+
+  a[href^=http]:after {
+    content:"         [" attr(href) "] ";
+    color: #666;
+  }
+
+  a:after > img {
+     content: "";
+  }
+
+  article a[href^="#"]:after {
+     content: "";
+  }
+
+  a:not(:local-link):after {
+     content:" [" attr(href) "] ";
+  }
+
+  p, address, li, dt, dd, blockquote,
+  label, input {
+    font-size: 100%
+  }
+
+  code, pre {
+    font-family: "Courier New", Courier, mono;
+  }
+
+  ul, ol {
+    margin-left: 14pt;
+    margin-bottom: 21pt;
+  }
+
+  .crit-item-content ul {
+    list-style-type: square !important;
+  }
+
+  .criteria-list {
+    @include list-unstyled;
+  }
+
+  .crit-item {
+    font: 10pt Arial, sans-serif !important;
+  }
+
+  .crit-item button {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .crit-item-title {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+  }
+
+  .crit-item h2 {
+    margin-top: 0;
+  }
+
+  .crit-item-id {
+    margin-top: 6pt;
+    align-self: center;
+  }
+
+  .crit-item-id::before {
+    display: inline-block;
+    content: "";
+    width: 14pt;
+    height: 14pt;
+    margin-right: 8pt;
+    border: 1pt solid $primary-color;
+    vertical-align: middle;
+  }
+}

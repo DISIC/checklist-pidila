@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages | index should match snapshot 1`] = `
+<main
+  class="main"
+  id="main"
+  role="main"
+>
+  <div
+    class="container main-container"
+  >
+    <div
+      class="col-group"
+    >
+      <div
+        class="criteria-boxes col-main"
+      >
+        <h1>
+          Liste des critères
+        </h1>
+         
+        <alert-stub
+          data="[object Object]"
+        />
+        <alert-stub
+          data="[object Object]"
+        />
+         
+        <filter-details-stub />
+         
+        <list-tools-stub />
+         
+        <p
+          class="filters-access"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-icon icon-filter"
+            focusable="false"
+          >
+            <use
+              xlink:href="svg/icon-sprite.svg#filter"
+            />
+          </svg>
+           
+          <anchor-link-stub
+            anchor="filters"
+            cssclass=""
+            message="Accéder aux filtres"
+          />
+        </p>
+         
+        <div>
+          <ul
+            class="criteria-list"
+            id="criteria-list"
+          >
+            <criteria-stub
+              data="[object Object]"
+            />
+            <criteria-stub
+              data="[object Object]"
+            />
+            <criteria-stub
+              data="[object Object]"
+            />
+          </ul>
+           
+          <p
+            class="criteria-null"
+            style="display: none;"
+          >
+            
+            Aucun critère ne correspond aux filtres appliqués.
+          
+          </p>
+        </div>
+      </div>
+       
+      <div
+        class="col-aside"
+      >
+        <aside>
+          <search-box-stub />
+           
+          <filter-box-stub
+            data="[object Object],[object Object]"
+          />
+           
+          <column-links-stub />
+        </aside>
+      </div>
+    </div>
+  </div>
+</main>
+`;

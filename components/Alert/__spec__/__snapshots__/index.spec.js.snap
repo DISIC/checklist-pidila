@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | Alert should match snapshot 1`] = `
+<div
+  class="alert alert-warning"
+>
+  <p>
+    La direction interministérielle
+  </p>
+</div>
+`;

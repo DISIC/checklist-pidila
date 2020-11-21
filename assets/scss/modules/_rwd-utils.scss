@@ -1,0 +1,11 @@
+//  rwd
+// ==========================================================
+
+// import scampi
+@import "../../../node_modules/@pidila/scampi/modules/rwd-utils/index";
+
+
+// styles
+body {
+  @include rwd-typo-size(body);
+}

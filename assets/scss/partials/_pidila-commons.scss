@@ -1,0 +1,96 @@
+// common rules scampi/pidila demos
+// ================================
+.default-banner {
+  .container {
+    max-width: 100%;
+    padding: .25em .5em;
+    color: $primary-color;
+    border-bottom: 1px solid $primary-color;
+//    background: $primary-color url(/static/svg/checklist.svg) no-repeat .5em .5em;
+    background-color: white;
+    background-size: 2.5em auto;
+
+    @media screen and(min-width: 48em) {
+      padding: .75em 2em .5em 8em;
+      background-position: 2em 50%;
+      background-size: 4.5em auto;
+    }
+  }
+
+  .site-title {
+    margin-bottom: 0;
+    color: $primary-color;
+    font-size: 2em;
+  }
+
+  .baseline {
+    margin-bottom: .25em;
+
+    @media screen and(max-width: 48em) {
+      font-size: .875em;
+    }
+  }
+}
+
+// footer
+.pidila-footer {
+  padding: .25em .5em;
+  border-top: 1px solid $primary-color;
+  font-size: .875em;
+
+  @media screen and(min-width: 48em) {
+    padding: .5em 2em;
+  }
+
+  @media screen and(min-width: 48em) {
+    .container {
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and(min-width: 48em) {
+    .footer-content {
+      flex: 1 1 100%;
+      padding-right: 2em;
+    }
+  }
+
+  p {
+    margin: .25em 0;
+  }
+
+  .svg-icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: bottom;
+  }
+}
+
+.pidila-logo {
+  text-align: left;
+  margin: 1em 0 2em 0;
+  a {
+    display: block;
+
+    .svg-logo {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100px;
+      height: 42px;
+    }
+  }
+  a:hover {
+    background: none;
+  }
+}
+
+.site-title{
+  svg.svg-logo {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+  }
+}
+

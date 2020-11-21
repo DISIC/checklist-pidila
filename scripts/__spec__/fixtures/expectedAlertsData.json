@@ -1,0 +1,14 @@
+{
+  "alerts": [
+    {
+      "id": "alert_001",
+      "type": "warning",
+      "rawHTMLContent": "<p>La direction interministérielle du numérique et du système d’information et de communication de l’État (Dinsic) a publié <a href=\"http://references.modernisation.gouv.fr/homologation-cerfa\" title=\"la liste des critères d’homologation Cerfa des démarches en ligne - nouvelle fenêtre\" target=\"_blank\" rel=\"noopener noreferrer\">la liste des critères d’homologation Cerfa des démarches en ligne<svg aria-hidden=\"true\" focusable=\"false\" class=\"svg-icon icon-lien_externe\"><use xlink:href=\"svg/icon-sprite.svg#externe\"></use></svg></a>. Ces critères seront prochainement intégrés à cette checklist.</p>"
+    },
+    {
+      "id": "alert_002",
+      "type": "info",
+      "rawHTMLContent": "<p>La direction interministérielle du numérique et du système d’information et de communication de l’État (Dinsic) a publié <a href=\"http://references.modernisation.gouv.fr/homologation-cerfa\" title=\"la liste des critères d’homologation Cerfa des démarches en ligne - nouvelle fenêtre\" target=\"_blank\" rel=\"noopener noreferrer\">la liste des critères d’homologation Cerfa des démarches en ligne<svg aria-hidden=\"true\" focusable=\"false\" class=\"svg-icon icon-lien_externe\"><use xlink:href=\"svg/icon-sprite.svg#externe\"></use></svg></a>. Ces critères seront prochainement intégrés à cette checklist.</p>"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+.search-group {
+    display: flex;
+    margin-top: 1em;
+
+    .form-control {
+        flex: 1;
+        padding: .5em .75em;
+        font-size: 1em;
+        line-height: 1.5;
+        color: $body-color;
+        background-color: #fff;
+        border: 1px solid $gray-4;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    .btn-search {
+        border-radius: 0 4px 4px 0;
+        padding: .5em .75em;
+        background-color: $gray-4;
+
+        &:hover,
+        &:focus {
+            background-color: $gray-1;
+        }
+    }
+
+    .icon-search {
+        width: 1.5em;
+        height: 1.5em;
+        fill: white;
+    }
+}

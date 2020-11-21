@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | AsideColumn should match snapshot 1`] = `
+<div
+  class="col-aside"
+>
+  <aside />
+</div>
+`;

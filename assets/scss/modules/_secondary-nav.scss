@@ -1,0 +1,62 @@
+.col-aside {
+  position: relative;
+  overflow: hidden;
+}
+
+.secondary-nav-box {
+  margin-bottom: 3em;
+  background-color: $gray-10;
+
+  ul {
+    margin-left: 0;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    color: $primary-color;
+    font-size: 1em;
+    font-weight: 600;
+  }
+}
+
+.nav-box-title {
+  font-size: 1.5em;
+  text-align: center;
+  margin: .5em 0 1.5em;
+  text-transform: uppercase;
+  color: $primary-color;
+  border-bottom: 1px solid $primary-color;
+
+  span {
+    display: block;
+    text-align: center;
+
+    .svg-sidebar {
+      display: inline-block;
+      height: 1.5em;
+      width: 8em;
+    }
+  }
+}
+
+.nav-box-more {
+  position: relative;
+  margin-top: 3em;
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: normal;
+    border-bottom: 1px solid $primary-color;
+    padding: .75em 0 .5em 2.5em;
+  }
+
+  // placement de l'icone git
+  .icon-git {
+    position: absolute;
+    top: .5em;
+    left: .5em;
+    width : 1.5em;
+    height : 1.5em;
+    line-height: 1;
+  }
+}

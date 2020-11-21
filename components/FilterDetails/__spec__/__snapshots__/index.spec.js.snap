@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | FilterDetails should match snapshot 1`] = `
+<p
+  aria-atomic="true"
+  aria-live="assertive"
+  class="filters-recap alert alert-info"
+>
+  <span
+    class="row-count"
+  >
+    1
+  </span>
+   critère sans aucun filtre ni recherche appliqués pour le moment.
+</p>
+`;

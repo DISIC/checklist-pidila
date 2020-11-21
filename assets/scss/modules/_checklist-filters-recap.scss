@@ -1,0 +1,41 @@
+:not(.filters-recap).alert-info {
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: $body-color;
+}
+
+.criteria-boxes {
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+.filters-recap {
+  margin-top: 0;
+  margin-bottom: 2em;
+  line-height: 1.25;
+
+  .filters-reset {
+    display: block;
+    text-align: right;
+    font-weight: normal;
+    font-size: .825em;
+
+    .reset-symbol {
+      color: $secondary-color;
+    }
+  }
+}
+
+.icon-filter {
+  height: 1.125em;
+  width: 1.125em;
+  fill: $primary-color;
+}
+
+.row-count {
+  font-family: georgia, serif;
+  font-size: 1.75em;
+  color: $primary-color;
+}

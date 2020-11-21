@@ -1,0 +1,16 @@
+@import "../../../node_modules/@pidila/scampi/modules/skip-link/index";
+
+.skip-link {
+  max-width: 30em;
+  margin: 0 auto;
+  background-color: #fff;
+  color: $link-color;
+
+  a {
+    color: $link-color;
+    background-color: #fff;
+    padding: .2em .5em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

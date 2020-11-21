@@ -1,0 +1,101 @@
+{
+  "globalFilters": [
+    {
+      "title": "Profil",
+      "tags": [
+        "Intégration",
+        "Développement",
+        "Rédactionnel"
+      ]
+    },
+    {
+      "title": "Référentiel",
+      "tags": [
+        "RGAA",
+        "Bonnes pratiques Opquast"
+      ]
+    },
+    {
+      "title": "Niveau",
+      "tags": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "title": "Thématique",
+      "tags": [
+        "Alternatives"
+      ]
+    }
+  ],
+  "criterias": [
+    {
+      "id": "pi-001",
+      "title": "L'attribut alt des images, zones réactives et boutons graphiques est présent.",
+      "filters": [
+        {
+          "title": "Profil",
+          "tags": [
+            "Intégration"
+          ]
+        },
+        {
+          "title": "Référentiel",
+          "tags": [
+            "RGAA",
+            "Bonnes pratiques Opquast"
+          ]
+        },
+        {
+          "title": "Niveau",
+          "tags": [
+            "1"
+          ]
+        },
+        {
+          "title": "Thématique",
+          "tags": [
+            "Alternatives"
+          ]
+        }
+      ],
+      "rawHTMLContent": "<p>Chaque image <code>img</code> a-t-elle un attribut alt ?</p>\n<p>Chaque zone <code>area</code> d'une image réactive a-t-elle un attribut alt ?</p>\n<p>Chaque bouton de formulaire <code>input type=\"image\"</code> a-t-il un attribut alt ?</p>\n<h3>Références</h3>\n<ul>\n<li>RGAA : <a href=\"https://references.modernisation.gouv.fr/rgaa-accessibilite/criteres.html#images\" title=\"1.1.1, 1.1.2, 1.1.3 - nouvelle fenêtre\" target=\"_blank\" rel=\"noopener noreferrer\">1.1.1, 1.1.2, 1.1.3<svg aria-hidden=\"true\" focusable=\"false\" class=\"svg-icon icon-lien_externe\"><use xlink:href=\"svg/icon-sprite.svg#externe\"></use></svg></a></li>\n<li>Bonnes pratiques Opquast : <a href=\"https://checklists.opquast.com/oqs-v3/criteria/chaque-image-decorative-est-dotee-dune-alternative-textuelle-appropriee\" title=\"1 - nouvelle fenêtre\" target=\"_blank\" rel=\"noopener noreferrer\">1<svg aria-hidden=\"true\" focusable=\"false\" class=\"svg-icon icon-lien_externe\"><use xlink:href=\"svg/icon-sprite.svg#externe\"></use></svg></a>, <a href=\"https://checklists.opquast.com/oqs-v3/criteria/chaque-image-lien-est-dotee-dune-alternative-textuelle-appropriee\" title=\"2 - nouvelle fenêtre\" target=\"_blank\" rel=\"noopener noreferrer\">2<svg aria-hidden=\"true\" focusable=\"false\" class=\"svg-icon icon-lien_externe\"><use xlink:href=\"svg/icon-sprite.svg#externe\"></use></svg></a>, <a href=\"https://checklists.opquast.com/oqs-v3/criteria/chaque-image-porteuse-dinformation-est-dotee-dune-alternative-textuelle-appropriee\" title=\"3 - nouvelle fenêtre\" target=\"_blank\" rel=\"noopener noreferrer\">3<svg aria-hidden=\"true\" focusable=\"false\" class=\"svg-icon icon-lien_externe\"><use xlink:href=\"svg/icon-sprite.svg#externe\"></use></svg></a></li>\n</ul>",
+      "textContent": "\n\nChaque image `img` a-t-elle un attribut alt ?\n\nChaque zone `area` d'une image réactive a-t-elle un attribut alt ?\n\nChaque bouton de formulaire `input type=\"image\"` a-t-il un attribut alt ?\n\n# Références\n* RGAA : 1.1.1, 1.1.2, 1.1.3\n* Bonnes pratiques Opquast : 1, 2, 3\n"
+    },
+    {
+      "id": "pi-002",
+      "title": "Les images légendées utilisent l'élément figure, le rôle group et une alternative textuelle donnant la référence à la légende.",
+      "filters": [
+        {
+          "title": "Profil",
+          "tags": [
+            "Intégration",
+            "Développement",
+            "Rédactionnel"
+          ]
+        },
+        {
+          "title": "Référentiel",
+          "tags": [
+            "RGAA"
+          ]
+        },
+        {
+          "title": "Niveau",
+          "tags": [
+            "2"
+          ]
+        },
+        {
+          "title": "Thématique",
+          "tags": [
+            "Alternatives"
+          ]
+        }
+      ],
+      "rawHTMLContent": "<p>Chaque image légendée <code>img</code> ou <code>input type=\"image\"</code> associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?<br />\nL’image <code>img</code> et sa légende sont contenues dans une balise figure ;<br />\nLa balise <code>figure</code> possède un attribut <code>role=\"group\"</code> ;<br />\nLe contenu de l’attribut alt de l’image contient une référence à la légende adjacente.</p>\n<p>Chaque image objet légendée <code>object type=\"image/…\"</code> associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?<br />\nL’image objet <code>object</code> et sa légende sont contenues dans une balise <code>figure</code> ;<br />\nLa balise figure possède un attribut <code>role=\"group\"</code>.</p>\n<p>Chaque image embarquée légendée <code>embed</code> associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?<br />\nL’image embarquée <code>embed</code> et sa légende sont contenues dans une balise figure ;<br />\nLa balise figure possède un attribut <code>role=\"group\"</code> ;<br />\nL’alternative contient une référence à la légende adjacente.</p>\n<p>Chaque image vectorielle légendée <code>svg</code> associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?<br />\nL’image vectorielle <code>svg</code> et sa légende sont contenues dans une balise figure ;<br />\nLa balise figure possède un <code>role=\"group\"</code> ;<br />\nLe contenu de la propriété aria-label ou de la balise desc de l’image vectorielle contient une référence à la légende adjacente.</p>\n<p>Chaque image bitmap légendée <code>canvas</code> associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?<br />\nL’image bitmap <code>canvas</code> et sa légende sont contenues dans une balise figure ;<br />\nLa balise figure possède un attribut <code>role=\"group\"</code> ;<br />\nLe contenu entre <code>canvas</code> et <code>canvas</code> de l’image bitmap contient une référence à la légende adjacente.</p>\n<h3>Références</h3>\n<ul>\n<li>RGAA : <a href=\"https://references.modernisation.gouv.fr/rgaa-accessibilite/criteres.html#images\" title=\"1.10.1, 1.10.2, 1.10.3, 1.10.4, 1.10.5 - nouvelle fenêtre\" target=\"_blank\" rel=\"noopener noreferrer\">1.10.1, 1.10.2, 1.10.3, 1.10.4, 1.10.5<svg aria-hidden=\"true\" focusable=\"false\" class=\"svg-icon icon-lien_externe\"><use xlink:href=\"svg/icon-sprite.svg#externe\"></use></svg></a></li>\n</ul>",
+      "textContent": "\n\nChaque image légendée `img` ou `input type=\"image\"` associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?\nL’image `img` et sa légende sont contenues dans une balise figure ;\nLa balise `figure` possède un attribut `role=\"group\"` ;\nLe contenu de l’attribut alt de l’image contient une référence à la légende adjacente.\n\nChaque image objet légendée `object type=\"image/…\"` associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?\nL’image objet `object` et sa légende sont contenues dans une balise `figure` ;\nLa balise figure possède un attribut `role=\"group\"`.\n\nChaque image embarquée légendée `embed` associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?\nL’image embarquée `embed` et sa légende sont contenues dans une balise figure ;\nLa balise figure possède un attribut `role=\"group\"` ;\nL’alternative contient une référence à la légende adjacente.\n\nChaque image vectorielle légendée `svg` associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?\nL’image vectorielle `svg` et sa légende sont contenues dans une balise figure ;\nLa balise figure possède un `role=\"group\"` ;\nLe contenu de la propriété aria-label ou de la balise desc de l’image vectorielle contient une référence à la légende adjacente.\n\nChaque image bitmap légendée `canvas` associée à une légende adjacente vérifie-t-elle, si nécessaire, ces conditions ?\nL’image bitmap `canvas` et sa légende sont contenues dans une balise figure ;\nLa balise figure possède un attribut `role=\"group\"` ;\nLe contenu entre `canvas` et `canvas` de l’image bitmap contient une référence à la légende adjacente.\n\n# Références\n* RGAA : 1.10.1, 1.10.2, 1.10.3, 1.10.4, 1.10.5\n"
+    }
+  ]
+}

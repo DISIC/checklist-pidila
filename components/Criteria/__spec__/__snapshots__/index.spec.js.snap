@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | Criteria should match snapshot 1`] = `
+<li
+  class="crit-item"
+>
+  <h2
+    class="js-expandmore crit-item-header"
+  >
+    <button
+      aria-expanded="false"
+      class="expandmore__button js-expandmore-button"
+      type="button"
+    >
+      <span
+        class="crit-item-id"
+      >
+        pi-001
+      </span>
+       
+      <span
+        class="crit-item-title"
+      >
+        Merveilleux titre
+      </span>
+       
+      <span
+        aria-hidden="true"
+        class="expand-symbol"
+      />
+    </button>
+  </h2>
+   
+  <div
+    class="crit-item-content js-to_expand"
+    hidden="hidden"
+  >
+    <div
+      class="crit-item-test"
+    >
+      <h3
+        class="sr-only"
+      >
+        Tests
+      </h3>
+       
+      <div
+        class="crit-item-test-content"
+      >
+        <p>
+          Contenu de qualité.
+        </p>
+      </div>
+    </div>
+     
+    <h3
+      class="sr-only"
+    >
+      Filtres correspondants
+    </h3>
+     
+    <ul
+      class="tags-list"
+    >
+      <li
+        class="red-labels-group"
+      >
+        <h4
+          class="sr-only"
+        >
+          Référentiel
+        </h4>
+         
+        <ul
+          class="tags-sublist"
+        >
+          <li
+            class="tags-sublist-item"
+          >
+            <span
+              class="tag"
+            >
+              Intégration
+            </span>
+          </li>
+          <li
+            class="tags-sublist-item"
+          >
+            <span
+              class="tag"
+            >
+              Rédactionnel
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li
+        class="yellow-labels-group"
+      >
+        <h4
+          class="sr-only"
+        >
+          Profil
+        </h4>
+         
+        <ul
+          class="tags-sublist"
+        >
+          <li
+            class="tags-sublist-item"
+          >
+            <span
+              class="tag"
+            >
+              Développement
+            </span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</li>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | DefaultHeader should match snapshot 1`] = `
+<header
+  class="banner default-banner"
+  role="banner"
+>
+  <div
+    class="container"
+  >
+    <p
+      class="site-title"
+    >
+      Checklist Pidila
+    </p>
+     
+    <p
+      class="baseline"
+    >
+      
+      Une liste unique des bonnes pratiques pour les sites publics : 
+      <abbr
+        title="Référentiel général d’amélioration de l’accessibilité"
+      >
+        RGAA
+      </abbr>
+      , Charte internet de l'État, Cerfa numérique, Bonnes pratiques Opquast, Éco-conception
+    
+    </p>
+  </div>
+</header>
+`;

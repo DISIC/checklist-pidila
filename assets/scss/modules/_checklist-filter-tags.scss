@@ -1,0 +1,45 @@
+// Paires class/couleur
+$tagsColors: profile #E040FB, referentiel #039BE5, level #4CAF50, theme #FF6F00;
+
+// distribution des tags en ligne
+.tags-list {
+  @include list-unstyled;
+
+  margin: 1em 0;
+  font-size: .875em;
+
+  li,
+  .tags-sublist {
+    display: inline-block;
+  }
+
+  .tags-sublist {
+    @include list-unstyled;
+  }
+
+  .tags-sublist-item {
+    margin-top: .5em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    padding: 0;
+  }
+
+  // règles générales tags
+  .tag {
+    padding: .25em .75em;
+    background-color: white;
+    border: 1px solid $gray-7;
+    border-radius: .25em;
+    text-align: left;
+    border-left: .25em solid $gray-5;
+  }
+
+  // utilisation des paires pour chaque groupe
+  @each $pair in $tagsColors {
+    $color: nth($pair, 2);
+
+    .#{nth($pair, 1)}-list .tag {
+      border-left-color: $color;
+    }
+  }
+}

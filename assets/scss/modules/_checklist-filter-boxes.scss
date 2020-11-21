@@ -1,0 +1,77 @@
+// boites à filtres
+
+.filter-boxes {
+  border: 1px solid lighten($piyellow, 20%);
+  margin-bottom: 1.5em;
+  background-color: $gray-10;
+
+  form {
+    @media screen and (max-width: 72em) {
+      display: flex;
+      flex-wrap: wrap;
+
+      fieldset {
+        flex: 1;
+        min-width: 14em;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 1.25em;
+    font-weight: normal;
+    border-bottom: 1px solid $primary-color;
+    color: $primary-color;
+    padding: 0 0 .5em 0;
+  }
+
+  .filter-boxes-info {
+    color: $primary-color;
+  }
+
+  ul {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  fieldset {
+    margin-top: 1em;
+  }
+
+  .filter-link {
+    cursor: pointer;
+    padding-left: 1.5em;
+  }
+}
+
+.fieldset-discrete {
+  border: none;
+  padding: 0;
+}
+
+.filter {
+  margin: 0 0 .125em 1.5em;
+}
+
+.filter-all {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  position: relative;
+}
+
+.filters legend {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  font-size: 1em;
+  font-weight: 600;
+  color: $primary-color;
+}
+
+.filter_input:checked + label {
+  font-weight: 600;
+  font-size: .9286em;
+}
+
+.filter-all .filter_input:checked + label {
+  font-weight: normal;
+}

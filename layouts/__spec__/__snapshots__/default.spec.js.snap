@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`layouts | default should match snapshot 1`] = `
+<div>
+  <skip-link-stub />
+   
+  <default-header-stub />
+   
+  <nuxt-stub />
+   
+  <default-footer-stub />
+</div>
+`;

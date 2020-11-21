@@ -1,0 +1,54 @@
+.list-tools {
+  @include list-unstyled;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link-tool {
+  margin-left: .5em;
+
+  p {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0;
+  }
+
+  .alert-success {
+    display: inline-block;
+    vertical-align: top;
+    padding: .25em 1em;
+    border: 1px solid $success-color;
+  }
+}
+
+.btn-tool {
+  background-color: white;
+  border-radius: 0;
+  border: 1px solid $primary-color;
+  margin-left: .25em;
+  color: $primary-color;
+  box-shadow: none;
+
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    color: white;
+  }
+}
+
+.open-tool,
+.close-tool {
+
+  .btn-tool {
+    padding: .25em .5em;
+    color: $cbc;
+    border-color: $cbc;
+
+      &:hover,
+      &:focus {
+        background-color: $cbc;
+        color: white;
+      }
+    }
+}

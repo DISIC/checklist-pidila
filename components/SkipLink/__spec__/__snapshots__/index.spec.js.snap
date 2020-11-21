@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | SkipLink should match snapshot 1`] = `
+<div
+  class="skip-link"
+>
+  <div
+    class="container"
+    id="top"
+  >
+    <ul>
+      <li>
+        <anchor-link-stub
+          anchor="main"
+          cssclass=""
+          message="Aller au contenu"
+        />
+      </li>
+       
+      <li>
+        <anchor-link-stub
+          anchor="filters"
+          cssclass=""
+          message="Aller aux filtres"
+        />
+      </li>
+    </ul>
+  </div>
+</div>
+`;

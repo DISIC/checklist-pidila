@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | ColumnLinks should match snapshot 1`] = `
+<div
+  class="secondary-nav-box"
+>
+  <h2
+    class="nav-box-title"
+  >
+    Checklist Pidila
+  </h2>
+   
+  <div
+    class="nav-box-content"
+  >
+    <ul>
+      <li>
+        <a
+          href="https://pidila.gitlab.io/checklist-pidila/a-propos-de-la-checklist.html"
+        >
+          À propos de la
+        checklist
+        </a>
+      </li>
+       
+      <li>
+        <a
+          href="https://pidila.gitlab.io/checklist-pidila/referentiels.html"
+        >
+          Référentiels inclus
+        </a>
+      </li>
+       
+      <li>
+        <a
+          href="https://pidila.gitlab.io/checklist-pidila/actualisations.html"
+        >
+          Actualisations
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

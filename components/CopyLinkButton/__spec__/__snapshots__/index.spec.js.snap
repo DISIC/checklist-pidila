@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | CopyLinkButton should match snapshot 1`] = `
+<li
+  class="link-tool"
+>
+  <p
+    aria-live="assertive"
+    role="presentation"
+  >
+    <!---->
+  </p>
+   
+  <button
+    class="btn btn-tool btn-link"
+    title="Copier le lien permanent vers cette liste"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-icon icon-tool icon-link click-through-able"
+      focusable="true"
+    >
+      <use
+        xlink:href="svg/icon-sprite.svg#link"
+      />
+    </svg>
+     
+    <span
+      class="sr-only"
+    >
+      Copier le lien permanent vers cette liste
+    </span>
+  </button>
+</li>
+`;

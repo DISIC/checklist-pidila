@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | AnchorLink should match snapshot 1`] = `
+<a
+  class=""
+  tabindex="0"
+>
+  
+  
+
+</a>
+`;

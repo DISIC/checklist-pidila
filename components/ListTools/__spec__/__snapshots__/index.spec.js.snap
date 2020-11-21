@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components | ListTools should match snapshot 1`] = `
+<ul
+  class="list-tools"
+>
+  <copy-link-button-stub />
+   
+  <li
+    class="print-tool"
+  >
+    <button
+      class="btn btn-tool btn-printer"
+      onclick="window.print()"
+      title="Imprimer cette liste"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-icon icon-tool icon-printer"
+        focusable="false"
+      >
+        <use
+          xlink:href="svg/icon-sprite.svg#printer"
+        />
+      </svg>
+       
+      <span
+        class="sr-only"
+      >
+        Imprimer cette liste
+      </span>
+    </button>
+  </li>
+   
+  <li
+    class="open-tool"
+  >
+    <button
+      class="btn btn-tool btn-open_all"
+      title="Ouvrir toute la liste des critères"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-icon icon-tool icon-open_all"
+        focusable="false"
+      >
+        <use
+          xlink:href="svg/icon-sprite.svg#open_all"
+        />
+      </svg>
+       
+      <span
+        class="sr-only"
+      >
+        Ouvrir toute la liste des critères
+      </span>
+    </button>
+  </li>
+   
+  <li
+    class="close-tool"
+  >
+    <button
+      class="btn btn-tool btn-close_all"
+      title="Fermer toute la liste des critères"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-icon icon-tool icon-close_all"
+        focusable="false"
+      >
+        <use
+          xlink:href="svg/icon-sprite.svg#close_all"
+        />
+      </svg>
+       
+      <span
+        class="sr-only"
+      >
+        Fermer toute la liste des critères
+      </span>
+    </button>
+  </li>
+</ul>
+`;
