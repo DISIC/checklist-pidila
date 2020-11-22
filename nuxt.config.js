@@ -88,6 +88,7 @@ module.exports = {
   ]
 }
 export default {
+  target: 'static',
   router: {
     base: '/checklist-pidila/'
   }
