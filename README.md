@@ -1,4 +1,6 @@
-npm ## Checklist Pidila
+## Checklist Pidila
+
+Développée conjointement par le PiDILA et la DINUM, la Checklist Pidila est désormais maintenue par le pôle DesignGouv de la DINUM.
 
 Ce dépôt contient une version "autoportée" de l'application de création et d'affichage de la [Checklist Pidila](https://pidila.gitlab.io/checklist-pidila/).
 
@@ -68,9 +70,6 @@ $ node ./node_modules/jest/bin/jest.js --clearCache
 ```
 En relançant les tests après, les snapshots devraient échouer comme prévu.
 
-## Contact
-
-pidila@dila.gouv.fr
 
 ## Licence
 
