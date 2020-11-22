@@ -52,7 +52,7 @@ module.exports = {
   ** Customize the generated output folder
   */
   generate: {
-    dir: 'public'
+    dir: 'dist'
   },
 
   /*
@@ -91,7 +91,7 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
         router: {
-          base: '/checklist-pidila/dist/'
+          base: '/checklist-pidila/'
         }
       }
     : {}
