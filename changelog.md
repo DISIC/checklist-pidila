@@ -1,3 +1,35 @@
+
+
+## v2.6 
+* Ajout du référentiel _Loi informatique et liberté_.
+* Suppression des référentiels _RGPD_ et _cerfa numérique_.
+* valorisations des deux autres checklists.
+
+## v2.5
+* La checklist PiDila est opérée par l'équipe Designgouv de la Dinum
+
+## v2.4
+* Ajout des critères pi-601 à pi-605
+* Ajout du référentiel _RGPD_.
+
+## v2.3
+* Amélioration print.css.
+* Reformulation pi-208.
+* Ajout thématique _Authentification_, _Démarche_.
+
+## v2.2
+* Entête PiDila
+* Reformulation pi-208, pi-513
+* Suppression pi-916. 
+
+## v2.1
+* Ajout thématique _mobile_, référentiel _Marque de l'État_.
+* Ajout marqueur statistiques.
+* Reformulation pi-021, pi-208, pi-912.
+* Suppression pi-930, pi-931. 
+* Suppression thématique _consultation_.
+* Suppression des dernières références au RGAA3 et à la Dinsic.
+
 ## v2.0
 * Intégration des critères RGAA4.
 
