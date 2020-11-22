@@ -23,6 +23,7 @@
 * Suppression pi-916. 
 
 ## v2.1
+* La checklist est maintenant autonome et indépendante du site pidila.
 * Ajout thématique _mobile_, référentiel _Marque de l'État_.
 * Ajout marqueur statistiques.
 * Reformulation pi-021, pi-208, pi-912.
