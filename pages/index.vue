@@ -5,8 +5,8 @@
   <h1>La <span  class="highlight">checklist</span> PiDila</h1>
   <p class="cover__subtitle">Une liste unique des bonnes pratiques pour les sites publics : <abbr title="Référentiel général d‘amélioration de l‘accessibilité">RGAA</abbr>, Charte internet et Marque de l‘État, Bonnes pratiques Opquast, Éco-conception, <abbr title="Référentiel général d‘interopérabilité">RGI</abbr> et Loi informatique et liberté.</p>
   <p>Il est toujours intéressant de faire un diagnostic rapide en utilisant <a href="http://pidila.gitlab.io/amoa/evaluation-rapide.html">la checklist rapide</a> ou bien de faire les tests de la <a href="http://pidila.gitlab.io/developpement/shortlist.html">checklist du développeur</a> avant de livrer.</p>
-  <div class="checklist_container">
-        <div class="criteria-boxes">
+  <div class="checklist_container col-group">
+        <div class="criteria-boxes col-main">
 
           <alert v-for="alert in alerts" :key="alert.id" :data="alert"/>
 
@@ -146,12 +146,7 @@
 
 <style type="scss">
 .cover__container { max-width: 80em; }
-.checklist_container { margin-top: 2em; display: flex; }
-.criteria-boxes { flex: 1 0 54%; margin-right:2em; }
-.col-aside { 
-  width: 40autoem;
-  text-align: left;
-}
+.filter-boxes { text-align: left;}
 button { border-radius: unset;}
 .crit-item-test {
   text-align: left;
