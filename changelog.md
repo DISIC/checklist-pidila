@@ -3,7 +3,7 @@
 ## v2.6 
 * Ajout du référentiel _Loi informatique et liberté_.
 * Suppression des référentiels _RGPD_ et _cerfa numérique_.
-* valorisations des deux autres checklists.
+* valorisation des deux autres checklists.
 
 ## v2.5
 * La checklist PiDila est opérée par l'équipe Designgouv de la Dinum
