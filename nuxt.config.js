@@ -5,7 +5,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Liste des critères - Checklist Pidila',
+    title: 'Les critères de la Checklist Pidila',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
@@ -52,7 +52,7 @@ module.exports = {
   ** Customize the generated output folder
   */
   generate: {
-    dir: 'dist'
+    dir: 'public'
   },
 
   /*
@@ -87,14 +87,8 @@ module.exports = {
     '**/*.spec.*'
   ]
 }
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: '/checklist-pidila/'
-        }
-      }
-    : {}
 export default {
-  ...routerBase
+  router: {
+    base: '/checklist-pidila/'
+  }
 }
