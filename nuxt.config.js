@@ -87,3 +87,14 @@ module.exports = {
     '**/*.spec.*'
   ]
 }
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/checklist-pidila/'
+        }
+      }
+    : {}
+export default {
+  ...routerBase
+}
