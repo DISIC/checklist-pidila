@@ -1,4 +1,5 @@
-
+## v2.7
+* Header et Footer DesignGouv
 
 ## v2.6 
 * Ajout du référentiel _Loi informatique et liberté_.
